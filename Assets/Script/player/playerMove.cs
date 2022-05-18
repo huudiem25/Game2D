@@ -31,10 +31,10 @@ public class playerMove : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
-
+    public Joystick joystick;
     private void Awake()
     {
-        //Grab references for rigidbody and animator from object
+        //Grab referencesss for rigidbody and animator from object
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -43,13 +43,13 @@ public class playerMove : MonoBehaviour
     private void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-
+        //horizontalInput = joystick.Horizontal;
         //Flip player when moving left-right
         if (horizontalInput > 0.02f)
             transform.localScale = new Vector3(2, 2, 2);
         else if (horizontalInput < -0.02f)
             transform.localScale = new Vector3(-2, 2, 2);
-
+        float verticalMove = joystick.Vertical;
         //Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", isGrounded());
@@ -57,7 +57,8 @@ public class playerMove : MonoBehaviour
         //Jump
         if (Input.GetKeyDown(KeyCode.Space))
             Jump();
-
+        //if (verticalMove >= .5f)
+            //Jump();
         //Adjustable jump height
         if (Input.GetKeyUp(KeyCode.Space) && body.velocity.y > 0)
             body.velocity = new Vector2(body.velocity.x, body.velocity.y / 2);
