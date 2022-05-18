@@ -49,7 +49,6 @@ public class health : MonoBehaviour
 
                 anim.SetBool("grounded", true);
                 anim.SetTrigger("die");
-
                 dead = true;
                 soundManager.instance.PlaySound(deathSound);
             }
@@ -91,8 +90,11 @@ public class health : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
-
-   
+    private void Deactivates()
+    {
+        gameObject.SetActive(false);
+        UImanager.instance.bnGameOver.SetActive(true);
+    }
 }
 
 
