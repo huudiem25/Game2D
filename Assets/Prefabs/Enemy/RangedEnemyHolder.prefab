@@ -266,8 +266,8 @@ MonoBehaviour:
   numberOfFlashes: 0
   components:
   - {fileID: 4142684858803981239}
-  deadthsound: {fileID: 8300000, guid: a9b42d672d030bd448d902ff239dbab6, type: 3}
-  hurtsound: {fileID: 8300000, guid: bf9237dc58cb39a4f9b68e2e52096a90, type: 3}
+  deathSound: {fileID: 0}
+  hurtSound: {fileID: 0}
 --- !u!114 &4142684858803981239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 1
-  range: 13
+  range: 35
   damage: 1
   firepoint: {fileID: 4134478941667309421}
   fireballs:
@@ -295,7 +295,7 @@ MonoBehaviour:
   - {fileID: 2904529782909953120}
   - {fileID: 2904529782487866127}
   - {fileID: 2904529782059984589}
-  colliderDistance: 0.33
+  colliderDistance: 0.45
   boxCollider: {fileID: 4142684858803981244}
   playerLayer:
     serializedVersion: 2
