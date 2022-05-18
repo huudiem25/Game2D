@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E0458CE3-6D86-208B-35DE-FF910C504582}</ProjectGuid>
+    <ProjectGuid>{00E5F77E-AE7C-5A0C-5AE7-8AB17214912B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
@@ -681,39 +681,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{BEB97C74-B7BC-14FC-78BC-6323782EB3AB}</Project>
+      <Project>{16DD6140-799A-902D-A88C-68A21918287D}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{41B24B2D-A280-17C7-9125-C78D7BFFB71F}</Project>
+      <Project>{408673DC-DCA0-15A6-B9C0-D2C445767997}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{372554E7-EFE8-1628-A6D1-C1D289F13599}</Project>
+      <Project>{A2D26F25-8A6D-0367-677E-2CFCFEC2D635}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{97A9D921-E360-81C3-ACB4-8F32F0AE9D5C}</Project>
+      <Project>{DA424A75-D900-7866-AF9B-51CC92F4D8D1}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{3518CE1D-8485-B20C-612A-A6C8A9813829}</Project>
+      <Project>{68FC8A4D-12F7-57AC-5923-9A5100620EDF}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{D9ED6D01-67F5-C70C-8B06-70E4691A4197}</Project>
+      <Project>{A79090F1-A9A0-6903-7824-DB7980476FFE}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{12742635-B819-6341-63EC-BD14B8A48659}</Project>
+      <Project>{62C56316-ECDD-81FC-73D3-88ED29D5CFB8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{9C50E10D-865D-ED4C-50FF-9C8C307EBF5A}</Project>
+      <Project>{0C77CC6C-8C04-360D-35E0-1BC8537431A8}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{78CF6FBF-AA50-7456-1ACE-E62220E74D14}</Project>
+      <Project>{0EFF7A48-0B59-E0FE-9FF1-E35FEA957B3A}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
